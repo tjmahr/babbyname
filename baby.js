@@ -21,7 +21,7 @@ var name1 = makeBabyName();
 var name2 = makeBabyName();
 
 var babby = randomElement(["boy", "girl"]);
-var twins = Math.floor(Math.random() * 25) == 8;
+var twins = Math.floor(Math.random() * 50) == 8;
 
 var color = twins ? "FFFFAD" : (babby == "boy" ? "8BBEFF" : "F2B6DE");
 
